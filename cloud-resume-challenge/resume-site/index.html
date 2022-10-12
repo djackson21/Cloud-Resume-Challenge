@@ -6,21 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="js/visitCount.js">
     <script>
         fetch('https://yx2mfrveth.execute-api.us-east-1.amazonaws.com/Prod/hello')
         .then(response => response.json())
         .then((data) => {
-            document.getElementById('visitors').innerText = data.body
+            document.getElementById('visitors').innerText = data.visit_count
         })
     </script>
 </head>
 
 <body>
-    <p>Hello World! This a test</p>
+    <h1>Hello World!</h1>
     <p>This page was viewed
-        </p><div id="visitors"></div>
-        
-    <p></p>
+        <div id="visitors"></div>
+        </p>
 
 </body>
 
