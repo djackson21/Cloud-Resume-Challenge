@@ -242,7 +242,7 @@ $RECYCLE.BIN/
 */build/*
 
 .aws-sam/
-C:\Users\derro\Desktop\cloud-resume-challenge\cloud-resume-challenge\samconfig.toml
-C:\Users\derro\Desktop\cloud-resume-challenge\cloud-resume-challenge\template.yaml
+samconfig.toml
+template.yaml
 
 # End of https://www.gitignore.io/api/osx,linux,python,windows,pycharm,visualstudiocode
