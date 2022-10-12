@@ -244,5 +244,6 @@ $RECYCLE.BIN/
 .aws-sam/
 samconfig.toml
 template.yaml
+resume-site/
 
 # End of https://www.gitignore.io/api/osx,linux,python,windows,pycharm,visualstudiocode
